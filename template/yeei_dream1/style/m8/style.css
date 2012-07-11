@@ -1,0 +1,23 @@
+/*
+[name]蒲公英[/name]
+[iconbgcolor]#C29573[/iconbgcolor]
+Powered by Yeei.cn
+更多配色下载：http://www.yeei.cn/forum-54-1.html
+*/
+
+body{background:#15212F url(body.jpg) no-repeat center 0;}
+.a_h{ padding:0px}
+.head_y{background:none;}
+.head_yn_bg{}
+.head_yn{ background:none;height:210px; }
+.head_logo{ padding-top:70px}
+.slidebar li.on { background:#81BCEB; filter:none; color: #fff; font-weight: 700; }
+
+.nv_l{background:url(nv_bg.png) no-repeat 0 0}
+.nv_c{background:url(nv_bg.png) repeat-x 0 -36px; overflow:hidden}
+.nv_q li {background: url(f.png) no-repeat 0 center; }
+.nv_q li a {color:#fff}
+.nv_q li a:hover {background:url(gl.png) no-repeat center 0;}
+.nv_q li.a a {background:url(gl.png) no-repeat center 0;color:#fff;}
+
+#ft a{ color:#aaa}

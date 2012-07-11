@@ -1,0 +1,26 @@
+/*
+[name]宠物会所[/name]
+[iconbgcolor]#E6EEA5[/iconbgcolor]
+Powered by Yeei.cn
+更多配色下载：http://www.yeei.cn/forum-54-1.html
+*/
+
+body{background:#E6EEA5 url(body.jpg) no-repeat center 0;}
+.a_h{ padding:0px}
+.head_y{background:none;}
+.head_yn_bg{}
+.head_yn{ background:none;height:200px; }
+.head_logo{ padding-top:30px}
+.slidebar li.on { background:#81BCEB; filter:none; color: #fff; font-weight: 700; }
+
+.nv_l{background:url(nv_bg.png) no-repeat 0 0}
+.nv_c{background:url(nv_bg.png) repeat-x 0 -36px; overflow:hidden}
+.nv_q li {background: url(f.png) no-repeat 0 center; }
+.nv_q li a {color:#666;  }
+.nv_q li a:hover {background:url(gl.png) no-repeat center 0;}
+.nv_q li.a a {background:url(gl.png) no-repeat center 0;color:#666;}
+.nv_r #qmenu {background:url(qmenu.png) no-repeat 0 0;}
+.nv_r #qmenu.a {background-position: 0 -36px;}
+
+#qmenu_menu {border-color: #ccc; }
+
