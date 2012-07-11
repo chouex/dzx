@@ -1,23 +1,23 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_headerbanner.php 12322 2010-07-05 06:18:27Z monkey $
+ *      $Id: lang_headerbanner.php 19237 2010-12-23 04:27:46Z monkey $
  */
 
 $lang = array
 (
-	'headerbanner_name' => 'Баннер в шапке ',
-	'headerbanner_desc' => 'Объявления (баннер) размещается в верхней части страницы (в шапке) с разрешением 468x60 пикс. (изображение или Flash). Если размещено несколько объявлений, система сама будет случайным образом выбирать одно из объявлений.',
-	'headerbanner_index' => 'Главная',
-	'headerbanner_fids' => 'Разделы форума',
-	'headerbanner_fids_comment' => 'Выберите разделы форума для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
-	'headerbanner_groups' => 'Категории сообществ',
-	'headerbanner_groups_comment' => 'Выберите категории сообществ для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
-	'headerbanner_category' => 'Категории портала',
-  'headerbanner_category_comment' => 'Выберите категории портала для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.', 
+	'headerbanner_name' => '全局 页头通栏广告',
+	'headerbanner_desc' => '展现方式: 页头通栏广告显示于页面上方，通常使用 960x60 图片或 Flash 的形式。当前页面有多个页头通栏广告时，系统会随机选取其中之一显示。<br />价值分析: 由于能够在页面打开的第一时间将广告内容展现于最醒目的位置，因此成为了网页中价位最高、最适合进行商业宣传或品牌推广的广告类型之一。',
+	'headerbanner_index' => '首页',
+	'headerbanner_fids' => '投放版块',
+	'headerbanner_fids_comment' => '设置广告投放的论坛版块，当广告投放范围中包含“论坛”时有效',
+	'headerbanner_groups' => '投放群组分类',
+	'headerbanner_groups_comment' => '设置广告投放的群组分类，当广告投放范围中包含“群组”时有效',
+	'headerbanner_category' => '投放门户频道',
+	'headerbanner_category_comment' => '设置广告投放的频道分类，当广告投放范围中包含“门户”时有效',
 );
 
 ?>

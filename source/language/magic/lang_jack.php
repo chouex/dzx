@@ -9,19 +9,19 @@
 
 $lang = array
 (
-	'jack_name' => 'Топ-тема',
-	'jack_desc' => 'Вы можете поднять тему в топе и удерживать ее в течение некоторого времени. Реквизит можно использовать повторно.',
-	'jack_expiration' => 'Период',
-	'jack_expiration_comment' => 'Установка продолжительности периода для удержания темы в топе, по умолчанию 1 час ',
-	'jack_forum' => 'Использовать на форумах',
-	'jack_info' => '<p class="mtn xw0 mbn">Тема поднята в топ на <span class="xi1 xw1 xs2"> {expiration} </span> час.</p> <p class="mtn xw0 mbn">Использовано <span class="xi1 xw1 xs2"> {magicnum} </span></p>',
-	'jack_num' => 'Использовано:',
-	'jack_num_not_enough' => 'Недостаточное количество реквизита или не указано значение!',
-	'jack_info_nonexistence' => 'Пожалуйста, укажите тему!',
-	'jack_succeed' => 'Ваша тема успешно размещена в топе!',
-	'jack_info_noperm' => 'К сожалению, здесь не разрешено использовать данный реквизит!',
+	'jack_name' => '千斤顶',
+	'jack_desc' => '可以将主题顶起一段时间，重复使用可延长帖子被顶起的时间',
+	'jack_expiration' => '时长',
+	'jack_expiration_comment' => '设置主题可以被顶起多长时间，默认 1 小时',
+	'jack_forum' => '允许使用本道具的版块',
+	'jack_info' => '<p class="mtn xw0 mbn">顶起指定的主题<span class="xi1 xw1 xs2"> {expiration} </span> 小时。</p> <p class="mtn xw0 mbn">你现在有<span class="xi1 xw1 xs2"> {magicnum} </span>个千斤顶可以使用。</p>',
+	'jack_num' => '本次使用数量:',
+	'jack_num_not_enough' => '道具数量不足或没有填写使用数量。',
+	'jack_info_nonexistence' => '请指定要顶起的主题',
+	'jack_succeed' => '千斤顶成功将主题顶起',
+	'jack_info_noperm' => '对不起，主题所在版块不允许使用本道具',
 
-	'jack_notification' => 'В Вашей теме {subject} пользователь {actor} использовал реквизит {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Посмотреть!</a>',
+	'jack_notification' => '你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
 );
 
 ?>

@@ -80,28 +80,6 @@ $lang = array(
 	'advice_fsockopen' => '该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
 	'advice_gethostbyname' => '是否php配置中禁止了gethostbyname函数。请联系空间商，确定开启了此项功能',
 	'advice_file_get_contents' => '该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
-	'advice_xml_parser_create' => '该函数需请将以上红叉部分修正再试',
-
-	'tips_dbinfo' => '填写数据库信息',
-	'tips_dbinfo_comment' => '',
-	'tips_admininfo' => '填写管理员信息',
-	'tips_admininfo_comment' => '请牢记 UCenter 创始人密码，凭该密码登陆 UCenter。',
-	'step_ext_info_title' => '安装成功 ',
-	'step_ext_info_desc' => '点击进入登陆',
-
-	'ext_info_succ' => '安装成功 ',
-	'install_locked' => '安装锁定，已经安装过了，如果您确定要重新安装，请到服务器上删除<br /> '.str_replace(ROOT_PATH, '', $lockfile),
-	'error_quit_msg' => '您必须解决以上问题，安装才可以继续',
-
-	'step_app_reg_title' => '设置运行环境',
-	'step_app_reg_desc' => '检测服务器环境以及设置 UCenter',
-	'tips_ucenter' => '请填写 UCenter 相关信息',
-	'tips_ucenter_comment' => 'UCenter 是 Comsenz 公司产品的核心服务程序，Discuz! Board 的安装和运行依赖此程序。如果您已经安装了 UCenter，请填写以下信息。否则，请到 <a href="http://www.discuz.com/" target="blank">Comsenz 产品中心</a> 下载并且安装，然后再继续。',
-
-	'advice_mysql_connect' => '请检查 mysql 模块是否正确加载',
-	'advice_fsockopen' => '该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
-	'advice_gethostbyname' => '是否php配置中禁止了gethostbyname函数。请联系空间商，确定开启了此项功能',
-	'advice_file_get_contents' => '该函数需要 php.ini 中 allow_url_fopen 选项开启。请联系空间商，确定开启了此项功能',
 	'advice_xml_parser_create' => '该函数需要 PHP 支持 XML。请联系空间商，确定开启了此项功能',
 
 	'ucurl' => 'UCenter 的 URL',

@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_polllist.php 11146 2010-05-25 02:52:53Z xupeng $
@@ -9,29 +9,28 @@
 
 $lang = array
 (
-	'polllist_name' => 'Список голосований',
-	'polllist_desc' => 'Укажите список голосований',
-	'polllist_uids' => 'UID автора',
-	'polllist_uids_comment' => 'Если у вас несколько значений, укажите ID(uid) автора через запятую',
-	'polllist_startrow' => 'Первоначальное количество строк',
-	'polllist_startrow_comment' => 'Чтобы задать начальное количество строк, введите значения. Например: 0, чтобы начать с первой линии и так далее...',
-	'polllist_titlelength' => 'Максимальное количество байт в названии',
-	'polllist_summarylength' => 'Длина содержания',
-	'polllist_orderby' => 'Сортировка',
-	'polllist_orderby_comment' => 'Настройка фильтра сортировки',
-	'polllist_orderby_dateline' => 'По дате',
-	'polllist_orderby_hot' => 'По популярности',
-	'polllist_orderby_lastvote' => 'По последним голосованиям',
-	'polllist_orderby_viewnum' => 'По просмотрам',
-	'polllist_orderby_replynum' => 'По ответам',
-	'polllist_orderby_votenum' => 'По количеству',
-	'polllist_credit' => 'По наградам',
-	'polllist_credit_nolimit' => 'Без ограничений',
-	'polllist_credit_yes' => 'Только с наградами',
-	'polllist_expirefilter' => 'По истечению срока',
-	'polllist_expirefilter_off' => 'Закрыто',
-	'polllist_expirefilter_on' => 'Открыто',
-
+	'polllist_name' => '投票列表',
+	'polllist_desc' => '投票列表调用',
+	'polllist_uids' => '用户UID',
+	'polllist_uids_comment' => '填入指定用户的ID(uid)，多个用户之间用逗号(,)分隔',
+	'polllist_startrow' => '起始数据行数',
+	'polllist_startrow_comment' => '如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'polllist_titlelength' => '标题长度',
+	'polllist_summarylength' => '简介长度',
+	'polllist_orderby' => '投票排序方式',
+	'polllist_orderby_comment' => '设置以哪一字段或方式对投票进行排序',
+	'polllist_orderby_dateline' => '按发布时间倒序',
+	'polllist_orderby_hot' => '按热度倒序',
+	'polllist_orderby_lastvote' => '按最后投票时间倒序',
+	'polllist_orderby_viewnum' => '按查看数倒序',
+	'polllist_orderby_replynum' => '按回复数倒序',
+	'polllist_orderby_votenum' => '按投票数倒序',
+	'polllist_credit' => '悬赏投票',
+	'polllist_credit_nolimit' => '不限定',
+	'polllist_credit_yes' => '只取悬赏投票',
+	'polllist_expirefilter' => '过期投票',
+	'polllist_expirefilter_off' => '不屏蔽',
+	'polllist_expirefilter_on' => '屏蔽',
 
 );
 

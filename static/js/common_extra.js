@@ -1014,12 +1014,12 @@ function _widthauto(obj) {
 		}
 		HTMLNODE.className += ' widthauto';
 		setcookie('widthauto', 1, 86400 * 30);
-		obj.innerHTML = 'Узкий экран';
+		obj.innerHTML = '切换到窄版';
 	} else {
 		$('css_widthauto').disabled = true;
 		HTMLNODE.className = HTMLNODE.className.replace(' widthauto', '');
 		setcookie('widthauto', -1, 86400 * 30);
-		obj.innerHTML = 'Широкий экран';
+		obj.innerHTML = '切换到宽版';
 	}
 	hideMenu();
 }

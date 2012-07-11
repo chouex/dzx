@@ -84,7 +84,7 @@ $dirfile_items = array
 	'cache' => array('type' => 'dir', 'path' => './data/cache'),
 	'cache' => array('type' => 'dir', 'path' => './data/avatar'),
 	'plugindata' => array('type' => 'dir', 'path' => './data/plugindata'),
-  'ftemplates' => array('type' => 'dir', 'path' => './data/template'),
+	'ftemplates' => array('type' => 'dir', 'path' => './data/template'),
 	'threadcache' => array('type' => 'dir', 'path' => './data/threadcache'),
 	'attach' => array('type' => 'dir', 'path' => './data/attachment'),
 	'attach_album' => array('type' => 'dir', 'path' => './data/attachment/album'),
@@ -149,7 +149,7 @@ $serialize_sql_setting = array (
     1 =>
     array (
       'img' => '',
-      'title' => 'Опыт',
+      'title' => '威望',
       'unit' => '',
       'ratio' => 0,
       'available' => '1',
@@ -160,7 +160,7 @@ $serialize_sql_setting = array (
     2 =>
     array (
       'img' => '',
-      'title' => 'Деньги',
+      'title' => '金钱',
       'unit' => '',
       'ratio' => 0,
       'available' => '1',
@@ -171,7 +171,7 @@ $serialize_sql_setting = array (
     3 =>
     array (
       'img' => '',
-      'title' => 'Вклад',
+      'title' => '贡献',
       'unit' => '',
       'ratio' => 0,
       'available' => '1',
@@ -237,51 +237,51 @@ $serialize_sql_setting = array (
   ),
   'postnocustom' =>
   array (
-    0 => 'Топикстартер',
-    1 => 'Первый',
-    2 => 'Второй',
-    3 => 'Третий',
+    0 => '楼主',
+    1 => '沙发',
+    2 => '板凳',
+    3 => '地板',
   ),
   'recommendthread' =>
   array (
-    'status' => '1',
-    'addtext' => 'Плюс',
-    'subtracttext' => 'Минус',
-    'defaultshow' => 'Вниз',
+    'status' => '0',
+    'addtext' => '支持',
+    'subtracttext' => '反对',
+    'defaultshow' => '1',
     'daycount' => '0',
     'ownthread' => '0',
     'iconlevels' => '50,100,200',
   ),
   'seotitle' =>
   array (
-    'portal' => 'Портал',
-    'forum' => 'Форум',
-    'group' => 'Группы',
-    'home' => 'Главная',
-    'userapp' => 'Приложения',
+    'portal' => '门户',
+    'forum' => '论坛',
+    'group' => '群组',
+    'home' => '家园',
+    'userapp' => '应用',
   ),
   'activityfield' =>
   array (
-    'realname' => 'Настоящее имя',
-    'mobile' => 'Мобильный',
-    'qq' => 'QQ',
+    'realname' => '真实姓名',
+    'mobile' => '手机',
+    'qq' => 'QQ号',
   ),
   'article_tags' =>
   array (
-    1 => 'Оригинал',
-    2 => 'Интересно',
-    3 => 'Фото',
-    4 => 'Бомба!',
-    5 => 'Книга',
-    6 => 'Рассказы',
-    7 => 'Обзоры',
-    8 => 'Новости',
+    1 => '原创',
+    2 => '热点',
+    3 => '组图',
+    4 => '爆料',
+    5 => '头条',
+    6 => '幻灯',
+    7 => '滚动',
+    8 => '推荐',
   ),
   'verify' =>
   array (
     6 =>
     array (
-      'title' => 'Реальное имя',
+      'title' => '实名认证',
       'available' => '0',
       'showicon' => '0',
       'viewrealname' => '0',
@@ -314,7 +314,7 @@ $serialize_sql_setting = array (
     ),
     7 =>
     array (
-      'title' => 'Видео-сертификация',
+      'title' => '视频认证',
       'available' => '0',
       'showicon' => '0',
       'viewvideophoto' => '0',
@@ -323,7 +323,7 @@ $serialize_sql_setting = array (
   ),
   'focus' =>
   array (
-    'title' => 'Для вебмастера',
+    'title' => '站长推荐',
     'data' =>
     array (
     ),
@@ -335,7 +335,7 @@ $serialize_sql_setting = array (
     array (
       'available' => 1,
       'displayorder' => 0,
-      'title' => 'Основная информация',
+      'title' => '基本资料',
       'field' =>
       array (
         'realname' => 'realname',
@@ -359,7 +359,7 @@ $serialize_sql_setting = array (
     ),
     'contact' =>
     array (
-      'title' => 'Контакты',
+      'title' => '联系方式',
       'available' => '1',
       'displayorder' => '1',
       'field' =>
@@ -377,7 +377,7 @@ $serialize_sql_setting = array (
     array (
       'available' => 1,
       'displayorder' => 2,
-      'title' => 'Образование',
+      'title' => '教育情况',
       'field' =>
       array (
         'graduateschool' => 'graduateschool',
@@ -388,7 +388,7 @@ $serialize_sql_setting = array (
     array (
       'available' => 1,
       'displayorder' => 3,
-      'title' => 'Работа',
+      'title' => '工作情况',
       'field' =>
       array (
         'occupation' => 'occupation',
@@ -399,7 +399,7 @@ $serialize_sql_setting = array (
     ),
     'info' =>
     array (
-      'title' => 'Персональная информация',
+      'title' => '个人信息',
       'available' => '1',
       'displayorder' => '4',
       'field' =>

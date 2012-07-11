@@ -1,24 +1,24 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_namepost.php 8055 2010-04-16 01:39:07Z monkey $
+ *      $Id: lang_namepost.php 18832 2010-12-07 04:01:53Z liulanbo $
  */
 
 $lang = array
 (
-          'namepost_name' => 'Просмотр анонима',
-          'namepost_desc' => 'Вы можете увидеть автора анонимного сообщения.',
-          'namepost_forum' => 'Использовать на форумах',
-          'namepost_info' => 'Введите сообщение и укажите его ID',
-          'namepost_info_nonexistence' => 'Введите, пожалуйста, сообщение!',
-          'namepost_succeed' => 'Ваше сообщения изменено!',
-          'namepost_info_noperm' => 'К сожалению, здесь не разрешено использование данного реквизита!',
-          'namepost_info_user_noperm' => 'Извините, Вы не можете использовать реквизит к этому человеку!',
-          'magic_namepost_succeed' => 'Аноним',
-          'namepost_num' => 'Имеет: {magicnum}',
+	'namepost_name' => '照妖镜',
+	'namepost_desc' => '可以查看一次匿名用户的真实身份。',
+	'namepost_forum' => '允许使用本道具的版块',
+	'namepost_num' => '拥有个数: {magicnum}',
+	'namepost_info' => '指定要显身的帖子，请输入帖子的 ID',
+	'namepost_info_nonexistence' => '参数错误，不能在此使用本道具。',
+	'namepost_succeed' => '匿名的用户是 <a title="{username}" href="space.php?uid={uid}" target="_blank"><b>{username}</b></a>',
+	'namepost_info_noperm' => '对不起，主题所在版块不允许使用本道具',
+	'namepost_info_user_noperm' => '对不起，你不能对此人使用本道具',
+	'magic_namepost_succeed' => '匿名的用户是',
 );
 
 ?>

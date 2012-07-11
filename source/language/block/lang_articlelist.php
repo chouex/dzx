@@ -1,48 +1,48 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_articlelist.php 13911 2010-08-03 03:56:13Z xupeng $
+ *      $Id: lang_articlelist.php 19786 2011-01-18 10:05:49Z zhangguosheng $
  */
 
 $lang = array
 (
-	'articlelist_aids' => 'Указанные статьи',
-	'articlelist_aids_comment' => 'Укажите ID(aid) статей через запятую',
-	'articlelist_uids' => 'UID автора',
-	'articlelist_uids_comment' => 'Укажите ID(uid) статей через запятую',
-	'articlelist_startrow' => 'Начальное количество строк',
-	'articlelist_startrow_comment' => 'Установка числа строк данных, введите конкретные значения, 0, чтобы начать с первой линии и так далее',
-	'articlelist_tag' => 'Теги',
-	'articlelist_tag_comment' => 'Укажите теги',
-	'articlelist_titlelength' => 'Длина названия',
-	'articlelist_titlelength_comment' => 'Установить максимальную длину названия',
-	'articlelist_summarylength' => 'Длина содержания',
-	'articlelist_summarylength_comment' => 'Установить максимальную длину содержания',
-	'articlelist_starttime' => 'Время размещения статьи',
-	'articlelist_starttime_comment' => 'Публикация статьи в определенное время',
-	'articlelist_endtime' => 'Время окончания статьи',
-	'articlelist_endtime_comment' => 'Закрытие статьи в определенное время',
-	'articlelist_catid' => 'Категории статей',
-	'articlelist_catid_comment' => 'Выберите категории статей',
-	'articlelist_picrequired' => 'Изображение для статьи',
-	'articlelist_picrequired_comment' => 'Установка изображения для статьи',
-	'articlelist_orderby' => 'Сортировка статей',
-	'articlelist_orderby_comment' => 'Выберите способ сортировки статей',
-	'articlelist_orderby_dateline' => 'Опубликовано',
-	'articlelist_orderby_viewnum' => 'По просмотрам',
-	'articlelist_orderby_commentnum' => 'По количеству комментариев',
-	'articlelist_keyword' => 'Название ключевого слова',
-  'articlelist_keyword_comment' => 'Укажите название ключевых слов. Примечание: Оставьте пустым если не хотите использовать при фильтрации. В ключевых словах можно использовать символы *; Поиск по нескольким ключевым словам с пробелами или  связкой AND (если используете Win32 AND UNIX); Поиск по части слова, можно использовать | или OR для Win32 AND UNIX',
-  'articlelist_orderby_click' => '{clickname} в обратной последовательности',
-  'articlelist_publishdateline' => 'Опубликованные статьи',
-  'articlelist_publishdateline_day' => 'Сутки',
-  'articlelist_publishdateline_hour' => 'й час',
-  'articlelist_publishdateline_month' => '1 мес.',
-  'articlelist_publishdateline_nolimit' => 'Без лимита',
-  'articlelist_publishdateline_week' => 'неделя', 
+	'articlelist_aids' => '指定文章',
+	'articlelist_aids_comment' => '填入指定文章的ID(aid)，多篇文章之间用逗号(,)分隔',
+	'articlelist_uids' => '作者UID',
+	'articlelist_uids_comment' => '填入指定用户的ID(uid)，多个用户之间用逗号(,)分隔',
+	'articlelist_startrow' => '起始数据行数',
+	'articlelist_startrow_comment' => '如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
+	'articlelist_tag' => '聚合标签',
+	'articlelist_tag_comment' => '指定要聚合的标签',
+	'articlelist_titlelength' => '标题长度',
+	'articlelist_titlelength_comment' => '设置标题最大长度',
+	'articlelist_summarylength' => '简介长度',
+	'articlelist_summarylength_comment' => '设置简介最大长度',
+	'articlelist_starttime' => '发布时间-起始',
+	'articlelist_starttime_comment' => '文章的发布时间在指定时间之后',
+	'articlelist_endtime' => '发布时间-结束',
+	'articlelist_endtime_comment' => '文章的发布时间在指定时间之前',
+	'articlelist_catid' => '文章栏目',
+	'articlelist_catid_comment' => '选择文章所属栏目',
+	'articlelist_picrequired' => '过滤无封面文章',
+	'articlelist_picrequired_comment' => '是否过滤未设置封面图片的文章',
+	'articlelist_orderby' => '文章排序方式',
+	'articlelist_orderby_comment' => '设置以哪一字段或方式对文章进行排序',
+	'articlelist_orderby_dateline' => '按发布时间倒序',
+	'articlelist_orderby_viewnum' => '按查看数倒序',
+	'articlelist_orderby_commentnum' => '按评论数倒序',
+	'articlelist_orderby_click' => '按表态 {clickname} 数倒序',
+	'articlelist_publishdateline' => '文章发布时间',
+	'articlelist_publishdateline_nolimit' => '不限制',
+	'articlelist_publishdateline_hour' => '1小时内',
+	'articlelist_publishdateline_day' => '24小时内',
+	'articlelist_publishdateline_week' => '7天内',
+	'articlelist_publishdateline_month' => '1个月内',
+	'articlelist_keyword' => '标题关键字',
+	'articlelist_keyword_comment' => '设置标题包含的关键字。注意: 留空为不进行任何过滤； 关键字中可使用通配符 *； 匹配多个关键字全部，可用空格或 AND 连接。如 win32 AND unix； 匹配多个关键字其中部分，可用 | 或 OR 连接。如 win32 OR unix',
 );
 
 ?>

@@ -397,7 +397,7 @@ CREATE TABLE pre_common_credit_log (
 DROP TABLE IF EXISTS pre_common_credit_rule;
 CREATE TABLE pre_common_credit_rule (
   rid mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
-  rulename varchar(32) NOT NULL DEFAULT '',
+  rulename varchar(20) NOT NULL DEFAULT '',
   `action` varchar(20) NOT NULL DEFAULT '',
   cycletype tinyint(1) NOT NULL DEFAULT '0',
   cycletime int(10) NOT NULL DEFAULT '0',
@@ -1265,7 +1265,7 @@ CREATE TABLE pre_common_syscache (
 DROP TABLE IF EXISTS pre_common_tag;
 CREATE TABLE pre_common_tag (
   tagid smallint(6) unsigned NOT NULL AUTO_INCREMENT,
-  tagname varchar(50) NOT NULL DEFAULT '',
+  tagname varchar(20) NOT NULL DEFAULT '',
   `status` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (tagid),
   KEY tagname (tagname),
@@ -1274,9 +1274,9 @@ CREATE TABLE pre_common_tag (
 
 DROP TABLE IF EXISTS pre_common_tagitem;
 CREATE TABLE pre_common_tagitem (
-  tagid smallint(6) NOT NULL DEFAULT '0',
-  tagname varchar(50) NOT NULL DEFAULT '',
-  itemid mediumint(8) NOT NULL DEFAULT '0',
+  tagid smallint(6) unsigned NOT NULL DEFAULT '0',
+  tagname varchar(20) NOT NULL DEFAULT '',
+  itemid mediumint(8) unsigned NOT NULL DEFAULT '0',
   idtype varchar(255) NOT NULL DEFAULT '',
   KEY tagid (tagid,idtype),
   KEY idtype (idtype,itemid)
@@ -2280,7 +2280,7 @@ CREATE TABLE pre_forum_post (
   rate smallint(6) NOT NULL DEFAULT '0',
   ratetimes tinyint(3) unsigned NOT NULL DEFAULT '0',
   `status` tinyint(1) NOT NULL DEFAULT '0',
-  tags varchar(600) NOT NULL DEFAULT '0',
+  tags varchar(255) NOT NULL DEFAULT '0',
   `comment` tinyint(1) NOT NULL DEFAULT '0',
   replycredit smallint(6) NOT NULL DEFAULT '0',
   PRIMARY KEY (pid),
@@ -2837,7 +2837,7 @@ CREATE TABLE pre_home_blogfield (
   blogid mediumint(8) unsigned NOT NULL DEFAULT '0',
   uid mediumint(8) unsigned NOT NULL DEFAULT '0',
   pic varchar(255) NOT NULL DEFAULT '',
-  tag varchar(600) NOT NULL DEFAULT '',
+  tag varchar(255) NOT NULL DEFAULT '',
   message mediumtext NOT NULL,
   postip varchar(255) NOT NULL DEFAULT '',
   related text NOT NULL,
@@ -3269,7 +3269,7 @@ CREATE TABLE pre_portal_article_title (
   `from` varchar(255) NOT NULL DEFAULT '',
   fromurl varchar(255) NOT NULL DEFAULT '',
   url varchar(255) NOT NULL DEFAULT '',
-  summary varchar(700) NOT NULL DEFAULT '',
+  summary varchar(255) NOT NULL DEFAULT '',
   pic varchar(255) NOT NULL DEFAULT '',
   thumb tinyint(1) NOT NULL DEFAULT '0',
   remote tinyint(1) NOT NULL DEFAULT '0',

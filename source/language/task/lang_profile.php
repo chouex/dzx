@@ -1,37 +1,37 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_profile.php 14918 2010-08-17 05:35:02Z chenchunshao $
+ *      $Id: lang_profile.php 22302 2011-04-29 02:20:12Z maruitao $
  */
 
 $lang = array
 (
-	'profile_name' => 'Улучшение профиля',
-	'profile_desc' => 'Вы можете заполнить свой профиль и получить за это вознаграждение!',
+	'profile_name' => '完善用户资料任务',
+	'profile_desc' => '完善指定的用户资料获得相应的奖励',
 
 	'profile_fields' => array(
-		'mp.realname' => 'Настоящее имя',
-		'mp.gender' => 'Пол',
-		'mp.birthyear' => 'День рождения (год)',
-		'mp.birthmonth' => 'День рождения (месяц)',
-		'mp.birthday' => 'День рождения (день)',
-		'mp.bloodtype' => 'Группа крови',
-		'mp.affectivestatus' => 'Настроение',
-		'mp.birthprovince' => 'Область рождения',
-		'mp.birthcity' => 'Город рождения',
-		'mp.resideprovince' => 'Место проживания (область)',
-		'mp.residecity' => 'Место проживания (город)'
+		'mp.realname' => '姓名',
+		'mp.gender' => '性别',
+		'mp.birthyear' => '生日(年)',
+		'mp.birthmonth' => '生日(月)',
+		'mp.birthday' => '生日(日)',
+		'mp.bloodtype' => '血型',
+		'mp.affectivestatus' => '情感状态',
+		'mp.birthprovince' => '家乡(省)',
+		'mp.birthcity' => '家乡(市)',
+		'mp.resideprovince' => '居住地(省)',
+		'mp.residecity' => '居住地(市)'
 	),
 
-	'profile_view' => '<strong>Вам необходимо заполнить следующие пункты:</strong><br>
+	'profile_view' => '<strong>您还有以下个人资料项需要补充完整：</strong><br>
 		<span style="color:red;">{profiles}</span><br><br>
-		<strong>Следуйте инструкциям, чтобы выполнить эту задачу:</strong>
+		<strong>请按照以下的说明来完成本任务：</strong>
 		<ul>
-		<li><a href="home.php?mod=spacecp&ac=profile" target="_blank">Страница настройки профиля откроется в новом окне</a></li>
-		<li>Добавьте необходимую персональную информацию в вашем профиле</li>
+		<li><a href="home.php?mod=spacecp&ac=profile" target="_blank" class="xi2">点击这里打开个人资料设置页面</a></li>
+		<li>在新打开的设置页面中，将上述个人资料补充完整</li>
 		</ul>',
 );
 

@@ -1,18 +1,18 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_promotion.php 14918 2010-08-17 05:35:02Z chenchunshao $
+ *      $Id: lang_promotion.php 22364 2011-05-04 09:11:14Z maruitao $
  */
 
 $lang = array
 (
-	'promotion_name' => 'Пригласить друзей',
-	'promotion_desc' => 'Вы можете пригласить своих друзей и знакомых на наш сайт и получить за это вознаграждение! Для этого, перейдите на страницу: <a href="home.php?mod=spacecp&ac=promotion" target="_blank">партнерки</a> и скопируйте любую из реферальных ссылок. Данные ссылки скопируйте и отправьте своим друзьям и знакомым на email, мессенжер, мобильный телефон или разместить их в своем блоге, либо на высокопосещаемых сайтах.',
-	'promotion_complete_var_iplimit' => 'Количество IP адресов',
-	'promotion_complete_var_iplimit_comment' => 'Для завершения этой задачи количество IP адресов должно быть больше или равно указанному значению',
+	'promotion_name' => '站点推广任务',
+	'promotion_desc' => '到“<a href="home.php?mod=spacecp&ac=promotion" target="_blank" class="xi2">访问推广</a>”页面，复制您的推广链接，发给QQ好友、您的博客或其他大型网站，推广获积分',
+	'promotion_complete_var_iplimit' => '推广 IP 数下限',
+	'promotion_complete_var_iplimit_comment' => '当日推广 IP 数大于或等于此设置，才能完成任务',
 );
 
 ?>

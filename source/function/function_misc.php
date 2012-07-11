@@ -20,16 +20,13 @@ function convertip($ip) {
 		$iparray = explode('.', $ip);
 
 		if($iparray[0] == 10 || $iparray[0] == 127 || ($iparray[0] == 192 && $iparray[1] == 168) || ($iparray[0] == 172 && ($iparray[1] >= 16 && $iparray[1] <= 31))) {
-/*vot*/			$return = 'LAN';
+			$return = '- LAN';
 		} elseif($iparray[0] > 255 || $iparray[1] > 255 || $iparray[2] > 255 || $iparray[3] > 255) {
-/*vot*/			$return = 'Invalid IP Address';
+			$return = '- Invalid IP Address';
 		} else {
-/*vot*/			$geoipfile = DISCUZ_ROOT.'./data/ipdata/GeoLiteCity.dat';
 			$tinyipfile = DISCUZ_ROOT.'./data/ipdata/tinyipdata.dat';
 			$fullipfile = DISCUZ_ROOT.'./data/ipdata/wry.dat';
-/*vot*/			if(@file_exists($geoipfile)) {
-/*vot*/				$return = convertip_geo($ip, $geoipfile);
-/*vot*/			} elseif(@file_exists($tinyipfile)) {
+			if(@file_exists($tinyipfile)) {
 				$return = convertip_tiny($ip, $tinyipfile);
 			} elseif(@file_exists($fullipfile)) {
 				$return = convertip_full($ip, $fullipfile);
@@ -38,26 +35,6 @@ function convertip($ip) {
 	}
 
 	return $return;
-
-}
-//---------------------------------------------------------
-//vot: Check IP country using the maxmind.com free database
-function convertip_geo($ip='', $ipdatafile='') {
-
-	include("geoipcity.inc");
-	include("geoipregionvars.php");
-
-	$gi = geoip_open($ipdatafile,GEOIP_STANDARD);
-
-	$country = geoip_record_by_addr($gi, $ip);
-	
-	geoip_close($gi);
-
-	if($country) {
-		return lang('country',$country->city . ", " . $GEOIP_REGION_NAME[$country->country_code][$country->region] . "\n");
-	} else {
-		return lang('country','- Unknown');
-	}
 
 }
 

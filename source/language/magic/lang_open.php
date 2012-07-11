@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_open.php 7980 2010-04-15 07:04:00Z monkey $
@@ -9,16 +9,16 @@
 
 $lang = array
 (
-	'open_name' => 'Рупор',
-	'open_desc' => 'Открыть закрытую тему и ответить в ней',
-	'open_forum' => 'Разрешить использовать на форуме',
-	'open_info' => 'Введите ID темы',
-	'open_info_nonexistence' => 'Укажите тему для открытия',
-	'open_succeed' => 'Тема открыта, можете ответить в ней',
-	'open_info_noperm' => 'На форуме запрещено использовать данный реквизит',
-	'open_info_user_noperm' => 'Извините, вы не можете использовать реквизит',
+	'open_name' => '喧嚣卡',
+	'open_desc' => '可以将主题开启，可以回复',
+	'open_forum' => '允许使用本道具的版块',
+	'open_info' => '开放指定的主题，请输入主题的 ID',
+	'open_info_nonexistence' => '请指定要开放的主题',
+	'open_succeed' => '你操作的主题已开放回复',
+	'open_info_noperm' => '对不起，主题所在版块不允许使用本道具',
+	'open_info_user_noperm' => '对不起，你不能对此人使用本道具',
 
-	'open_notification' => 'В Вашей теме {subject} {actor} использовал реквизит {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Посмотреть!</a>',
+	'open_notification' => '你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
 );
 
 ?>

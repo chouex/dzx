@@ -1,26 +1,26 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_forumlist.php 6752 2010-03-25 08:47:54Z cnteacher $
+ *      $Id: lang_forumlist.php 19504 2011-01-05 04:51:17Z monkey $
  */
 
 $lang = array
 (
-	'forumlist_fups' => 'Главный (родительский) форум',
-	'forumlist_fups_comment' => 'Укажите категорию форума или подфорума',
-	'forumlist_titlelength' => 'Максимальное количество байт в названии',
-	'forumlist_titlelength_comment' => 'Настройка длинны символов заголовка. Если заголовок больше указанного значения, длинна названия будет автоматически урезана до указанного значения. Если - 0, не урезать',
-	'forumlist_summarylength' => 'Длина содержания',
-	'forumlist_summarylength_comment' => 'Установить длину содержания',
-	'forumlist_orderby' => 'Сортировка',
-	'forumlist_orderby_comment' => 'Настройка фильтра сортировки',
-	'forumlist_orderby_displayorder' => 'По умолчанию',
-	'forumlist_orderby_threads' => 'По темам',
-	'forumlist_orderby_todayposts' => 'По сообщениям за сегодня',
-	'forumlist_orderby_posts' => 'По сообщениям',
+	'forumlist_fups' => '上级版块',
+	'forumlist_fups_comment' => '设置显示某些分类或版块下属的版块',
+	'forumlist_titlelength' => '名称长度',
+	'forumlist_titlelength_comment' => '设置版块名称显示的最大长度',
+	'forumlist_summarylength' => '介绍长度',
+	'forumlist_summarylength_comment' => '设置版块介绍显示的最大长度',
+	'forumlist_orderby' => '版块排序方式',
+	'forumlist_orderby_comment' => '设置以哪一字段或方式对版块进行排序',
+	'forumlist_orderby_displayorder' => '按显示顺序顺序排序',
+	'forumlist_orderby_threads' => '按主题数倒序排序',
+	'forumlist_orderby_todayposts' => '按今日发帖数倒序排序',
+	'forumlist_orderby_posts' => '按帖子数倒序排序',
 );
 
 ?>

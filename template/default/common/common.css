@@ -590,7 +590,7 @@ CSS 写作注意事项：
 					#scbar_txt { width: 400px; border: 1px solid #FFF; outline: none; font-size: 14px; }
 				.scbar_btn_td { width: 67px; background: url({IMGDIR}/search.png) no-repeat 0 -296px; text-align: center; }
 					#scbar_btn { margin: 0; padding: 0; border: none; background: transparent none; }
-				/*.scbar_type_td { background: url({IMGDIR}/search.png) no-repeat 0 -370px; }*/
+				.scbar_type_td { background: url({IMGDIR}/search.png) no-repeat 0 -370px; }
 					#scbar_type { display: block; padding-left: 5px; text-align: left; text-decoration: none; }
 						#scbar_type_menu { margin-top: -8px; }
 				#scbar_hot { padding-left: 8px; height: 45px; overflow: hidden; }
@@ -891,7 +891,7 @@ CSS 写作注意事项：
 
 /* 应用列表*/
 	.appl ul { margin: 3px 0; }
-	.appl li { display: block; height: 28px; line-height: 28px; white-space: nowrap; word-wrap: normal; font-size: 12px; text-overflow: ellipsis; overflow: hidden; }
+	.appl li { display: block; height: 28px; line-height: 28px; white-space: nowrap; word-wrap: normal; font-size: 14px; text-overflow: ellipsis; overflow: hidden; }
 	.appl li a { text-decoration: none !important; }
 	.appl img { margin: 5px 5px -3px 0; }
 	.appl span { float: right; font-size: 12px; }

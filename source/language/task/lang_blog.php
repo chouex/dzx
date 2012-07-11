@@ -1,20 +1,20 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_blog.php 16433 2010-09-07 00:04:33Z monkey $
+ *      $Id: lang_blog.php 20567 2011-02-28 02:30:15Z congyushuai $
  */
 
 $lang = array
 (
-	'blog_name' => 'Публикация в блоге',
-	'blog_desc' => 'Чтобы получить соответствующее вознаграждение, опубликуйте запись в блоге. Запись должна быть уникальна и не должна быть скопирована из других интернет источников!',
-	'blog_view' => '<strong>Следуйте инструкциям, чтобы выполнить эту задачу:</strong>
+	'blog_name' => '发表日志任务',
+	'blog_desc' => '发表日志即可完成任务，获得相应的奖励',
+	'blog_view' => '<strong>请按照以下的说明来参与本任务：</strong>
 		<ul>
-		<li>1. <a href="home.php?mod=spacecp&ac=blog" target="_blank">Опубликуйте запись в блоге</a> (Страница блога откроется в новом окне).</li>
-		<li>2. В открывшейся странице создайте свой блог.</li>
+		<li>1. <a href="home.php?mod=spacecp&ac=blog" target="_blank">新窗口打开发表日志页面</a></li>
+		<li>2. 在新打开的页面中，书写自己的第一篇日志，并进行发布</li>
 		</ul>',
 );
 

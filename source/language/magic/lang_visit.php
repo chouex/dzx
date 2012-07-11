@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_visit.php 7828 2010-04-14 02:11:48Z monkey $
@@ -9,10 +9,10 @@
 
 $lang = array
 (
-	'visit_name' => 'Блекс',
-	'visit_desc' => 'Случайные посещения сайтов друзей, отправка приветов и сообщений для друзей.',
-	'visit_num' => 'Количество друзей',
-	'visit_info' => 'Всего посещений, приветов и ЛС: {num}.',
+	'visit_name' => '互访卡',
+	'visit_desc' => '随机访问好友空间/向好友打招呼/给好友留言',
+	'visit_num' => '访问好友数',
+	'visit_info' => '随机访问(最多 {num} 个)好友空间/向好友打招呼/给好友留言',
 );
 
 ?>
