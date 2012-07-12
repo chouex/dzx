@@ -1,10 +1,10 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_admincp.php 17408 2010-10-18 08:48:25Z zhengqingpeng $
+ *      $Id: lang_admincp.php 28030 2012-02-21 05:43:34Z monkey $
  */
 
 
