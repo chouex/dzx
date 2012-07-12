@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_updateline.php 7828 2010-04-14 02:11:48Z monkey $
@@ -9,9 +9,9 @@
 
 $lang = array
 (
-	'updateline_name' => '救生圈',
-	'updateline_desc' => '把自己日志的发布时间更新为当前时间',
-	'updateline_info' => '把自己日志的发布时间更新为当前时间',
+	'updateline_name' => 'Спасательный круг',
+	'updateline_desc' => 'Обновление блога текущим числом.',
+	'updateline_info' => 'Ваш блог будет обновлен текущим числом.',
 );
 
 ?>

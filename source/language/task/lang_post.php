@@ -1,36 +1,35 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_post.php 20567 2011-02-28 02:30:15Z congyushuai $
+ *      $Id: lang_post.php 16635 2010-09-10 09:40:57Z monkey $
  */
 
 $lang = array
 (
-	'post_name' => '论坛帖子类任务',
-	'post_desc' => '通过发帖回帖完成任务，活跃论坛的氛围',
-	'post_complete_var_act' => '动作',
-	'post_complete_var_act_newthread' => '发新主题',
-	'post_complete_var_act_newreply' => '发新回复',
-	'post_complete_var_act_newpost' => '发新主题/回复',
-	'post_complate_var_forumid' => '版块限制',
-	'post_complate_var_forumid_comment' => '设置会员只能在某个版块完成任务',
-	'post_complate_var_threadid' => '回复指定主题',
-	'post_complate_var_threadid_comment' => '设置会员只有回复该主题才能完成任务，请填写主题的 TID',
-	'post_complate_var_author' => '回复指定作者',
-	'post_complate_var_author_comment' => '设置会员只有回复该作者发表的主题才能完成任务，请填写作者的用户名',
-	'post_complete_var_num' => '执行动作次数下限',
-	'post_complete_var_num_comment' => '会员需要执行相应动作的最少次数',
-	'post_complete_var_time' => '时间限制(小时)',
-	'post_complete_var_time_comment' => '设置会员从申请任务到完成任务的时间限制，会员在此时间内未能完成任务则不能领取奖励并标记任务失败，0 或留空为不限制',
-
-	'task_complete_forumid' => '在版块 {value} ',
-	'task_complete_act_newthread' => '发新主题 {num} 次',
-	'task_complete_act_newpost' => '发新主题/回复 {num} 次',
-	'task_complete_act_newreply_thread' => '在“{value}”回复主题 {num} 次',
-	'task_complete_act_newreply_author' => '回复作者“{value}”的主题 {num} 次',
+	'post_name' => 'Золотой контент',
+	'post_desc' => 'Ответы для выполнения задачи отправляются по почте. Вас ждет активная атмосфера форума',
+	'post_complete_var_act' => 'Действие',
+	'post_complete_var_act_newthread' => 'Новая тема',
+	'post_complete_var_act_newreply' => 'Новый ответ',
+	'post_complete_var_act_newpost' => 'Новая тема / Ответить',
+	'post_complate_var_forumid' => 'Выберите форум',
+	'post_complate_var_forumid_comment' => 'Укажите форум для выполнения задачи',
+	'post_complate_var_threadid' => 'Ответить в указанной теме',
+	'post_complate_var_threadid_comment' => 'Укажите тему для выполнения задачи. В указанной теме смогут отвечать только участники этой задачи, пожалуйста, заполните TID темы',
+	'post_complate_var_author' => 'Укажите автора',
+	'post_complate_var_author_comment' => 'Укажите автора для выполнения этой задачи',
+	'post_complete_var_num' => 'Количество выполнений',
+	'post_complete_var_num_comment' => 'Участники должны выполнить минимальное количество соответствующих действий',
+	'post_complete_var_time' => 'Лимит времени (часы)',
+	'post_complete_var_time_comment' => 'Указание периода для выполнения этой задачи с применением временных ограничений. Если участник не выполнил задачу, он не имеет прав на получение наград. 0 или пустой - без ограничений',
+	'task_complete_forumid' => 'Форум {value} ',
+	'task_complete_act_newthread' => 'Новая тем {num} раз',
+	'task_complete_act_newpost' => 'Новая тема/ответ {num} раз',
+	'task_complete_act_newreply_thread' => 'Ответить в теме {value} {num} раз',
+	'task_complete_act_newreply_author' => 'Ответить автору {value} {num} раз',
 );
 
 ?>

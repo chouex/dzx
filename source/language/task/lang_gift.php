@@ -1,16 +1,16 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_gift.php 20567 2011-02-28 02:30:15Z congyushuai $
+ *      $Id: lang_gift.php 6752 2010-03-25 08:47:54Z cnteacher $
  */
 
 $lang = array
 (
-	'gift_name' => '红包类任务',
-	'gift_desc' => '申请此任务即可领取红包',
+	'gift_name' => 'Подарок',
+	'gift_desc' => 'Для выполнения этой задачи вам надо подать заявку для получения подарка',
 );
 
 ?>

@@ -1,26 +1,26 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_magic.php 20565 2011-02-28 02:24:52Z congyushuai $
+ *      $Id: lang_magic.php 7803 2010-04-13 09:48:39Z monkey $
  */
 
 $lang = array
 (
-	'target_tid' => '目标主题 tid',
-	'target_pid' => '目标帖子 pid',
-	'target_username' => '目标用户名',
-	'magics_type_1' => '帖子类',
-	'magics_type_2' => '会员类',
-	'magics_type_3' => '其他类',
+	'target_tid' => 'Целевая тема (tid)',
+	'target_pid' => 'Целевое сообщение (pid)',
+	'target_username' => 'Целевой пользователь',
+	'magics_type_1' => 'Категории сообщений',
+	'magics_type_2' => 'Категории пользователей',
+	'magics_type_3' => 'Другие категории',
 
-	'CCK_color' => '颜色',
-	'MOK_info' => '获得的钱币数目规则：大于 1 且小于购买价格 150% 的随机数',
-	'CODE_info' => '获得 Discuz! 测试邀请码一个',
-	'MVK_target' => '要移动到的版面',
-	'SOFA_message' => '一道闪电划破湛蓝的天空，随着一声巨响，沙发被我抢了！哈哈！',
+	'CCK_color' => 'Цвет',
+	'MOK_info' => 'Количество доступных правил цена / качество: случайное число должно быть больше 1 и меньше 150% от цены покупки',
+	'CODE_info' => 'Получить код приглашения',
+	'MVK_target' => 'Перейти к цели',
+	'SOFA_message' => 'Ура-а-а!!! Молния пронзила голубое небо! С громким, победным криком я украл диван! Ха-ха!',
 );
 
 ?>

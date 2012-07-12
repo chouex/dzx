@@ -1,25 +1,25 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_anonymouspost.php 18824 2010-12-07 02:39:28Z liulanbo $
+ *      $Id: lang_anonymouspost.php 8055 2010-04-16 01:39:07Z monkey $
  */
 
 $lang = array
 (
-	'anonymouspost_name' => '匿名卡',
-	'anonymouspost_desc' => '在指定的地方，让自己的名字显示为匿名。',
-	'anonymouspost_num' => '拥有个数: {magicnum}',
-	'anonymouspost_forum' => '允许使用本道具的版块',
-	'anonymouspost_info' => '将自己的帖子设置为匿名身份，请输入帖子的 ID',
-	'anonymouspost_info_nonexistence' => '请指定要匿名的帖子',
-	'anonymouspost_succeed' => '成功设置为匿名',
-	'anonymouspost_use_error' => '参数错误，不能在此处使用本道具。',
-	'anonymouspost_info_noperm' => '对不起，主题所在版块不允许使用本道具',
-	'anonymouspost_info_user_noperm' => '对不起，你不能对此人使用本道具',
-	'anonymouspost_once_limit' => '已经是匿名状态了，不能重复使用本道具。',
+	'anonymouspost_name' => 'Сообщения анонимов',
+	'anonymouspost_desc' => 'Собственные сообщения могут быть анонимными',
+	'anonymouspost_forum' => 'Разрешить использование анонимных сообщений',
+	'anonymouspost_info' => 'Устанавливает свои собственные анонимные сообщения, введите ID записи',
+	'anonymouspost_info_nonexistence' => 'Пожалуйста, укажите анонимные сообщения',
+	'anonymouspost_succeed' => 'Ваше сообщение имеет статус анонимного ',
+	'anonymouspost_info_noperm' => 'Извините, не разрешается использовать форум с реквизитом',
+	'anonymouspost_info_user_noperm' => 'Извините, вы не можете использовать реквизит для этого человека',
+	'anonymouspost_num' => 'Количество реквизита: {magicnum}',
+  'anonymouspost_once_limit' => 'Аноним не может использовать реквизит.',
+  'anonymouspost_use_error' => 'Ошибка параметров! Вы не можете использовать здесь реквизит!',
 );
 
 ?>

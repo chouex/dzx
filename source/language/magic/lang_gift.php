@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_gift.php 7828 2010-04-14 02:11:48Z monkey $
@@ -9,18 +9,18 @@
 
 $lang = array
 (
-	'gift_name' => '红包卡',
-	'gift_desc' => '将自己的一部分积分埋在空间，来访者可以点击获取',
-	'gift_info' => '将积分作为红包（可分成多份）埋在自己空间，<br />每个来访者最多可以获取其中一份',
-	'gift_succeed' => '埋设红包成功 ',
-	'gift_bad_credits_input' => '输入的积分总数有误',
-	'gift_bad_percredit_input' => '输入的每份积分数有误',
-	'gift_bad_credittype_input' => '指定的积分类型有误',
-	'gift_credits_out_of_own' => '输入的积分数超出你拥有的积分数',
-	'gift_gc' => '回收红包',
-	'gift_use' => '埋个红包',
+	'gift_name' => 'Подарки',
+	'gift_desc' => 'Отправка подарков',
+	'gift_info' => 'Отправка подарков.<br />Каждый пользователь может получить по одному подарку',
+	'gift_succeed' => 'Подарок успешно отправлен!',
+	'gift_bad_credits_input' => 'Неправильная сумма баллов!',
+	'gift_bad_percredit_input' => 'Укажите правильное количество за единицу!',
+	'gift_bad_credittype_input' => 'Указан неправильный тип интеграла!',
+	'gift_credits_out_of_own' => 'Введите количество баллов!',
+	'gift_gc' => 'Получить',
+	'gift_use' => 'Подарок',
 
-	'gift_receive_gift' => '领取红包 {percredit} {credittype}',
+	'gift_receive_gift' => 'Получено подарков: {percredit} {credittype}',
 );
 
 ?>

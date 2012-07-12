@@ -1,27 +1,27 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_float.php 19237 2010-12-23 04:27:46Z monkey $
+ *      $Id: lang_float.php 12322 2010-07-05 06:18:27Z monkey $
  */
 
 $lang = array
 (
-	'float_name' => '全局 漂浮广告',
-	'float_desc' => '展现方式: 漂浮广告展现于页面左下角，当页面滚动时广告会自行移动以保持原来的位置，通常使用小图片或 Flash 的形式。当前页面有多个漂浮广告时，系统会随机选取其中之一显示。<br />价值分析: 漂浮广告是进行强力商业推广的有效手段，其在页面中的浮动性，使其与固定的图片和文字相比，更容易被关注，正因为如此，这种强制性的关注也可能招致对此广告内容不感兴趣的访问者的反感。请注意不要将过大的图片或 Flash 以漂浮广告的形式显示，以免影响页面阅读。',
-	'float_index' => '首页',
-	'float_fids' => '投放版块',
-	'float_fids_comment' => '设置广告投放的论坛版块，当广告投放范围中包含“论坛”时有效',
-	'float_groups' => '投放群组分类',
-	'float_groups_comment' => '设置广告投放的群组分类，当广告投放范围中包含“群组”时有效',
-	'float_position' => '漂浮位置',
-	'float_position_comment' => '设置广告漂浮的位置',
-	'float_position_left' => '左侧',
-	'float_position_right' => '右侧',
-	'float_category' => '投放门户频道',
-	'float_category_comment' => '设置广告投放的频道分类，当广告投放范围中包含“门户”时有效',
+	'float_name' => 'Плавающее окно ',
+	'float_desc' => 'Окно с плавающем объявлением показываются с левой стороны страницы, как правило, в виде уменьшенных изображений или Flash. Если имеется несколько плавающих объявлений, система сама будет случайным образом выбирать одно из изображений.',
+	'float_index' => 'Главная',
+	'float_fids' => 'Разделы форума',
+	'float_fids_comment' => 'Выберите разделы форума для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
+	'float_groups' => 'Категории сообществ',
+	'float_groups_comment' => 'Выберите категории сообществ для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
+	'float_position' => 'Позиция',
+	'float_position_comment' => 'Установите местонахождение объявления',
+	'float_position_left' => 'Слева',
+	'float_position_right' => 'Справа',
+	'float_category' => 'Категории портала',
+  'float_category_comment' => 'Выберите категории портала для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.', 
 );
 
 ?>

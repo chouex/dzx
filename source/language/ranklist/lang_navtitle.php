@@ -1,72 +1,72 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_navtitle.php 19830 2011-01-19 07:53:48Z shanzongjun $
+ *      $Id: lang_navtitle.php 16768 2010-09-14 08:00:07Z wangjinbo $
  *
  *      This file is automatically generate
  */
 
 $lang = array(
-  'ranklist_title_member_credit' => '用户积分排行',
-  'ranklist_title_member_bid' => '用户竞价排行',
-  'ranklist_title_member_girl' => '美女排行',
-  'ranklist_title_member_boy' => '帅哥排行',
-  'ranklist_title_member_friend' => '好友数排行',
-  'ranklist_title_member_invite' => '邀请排行',
-  'ranklist_title_member_post' => '发帖数排行',
-  'ranklist_title_member_blog' => '日志数排行',
-  'ranklist_title_member_onlinetime' => '在线时间排行',
+  'ranklist_title_member_credit' => 'Лучшие пользователи по бонусам',
+  'ranklist_title_member_bid' => 'Лучшие ставки пользователей',
+  'ranklist_title_member_girl' => 'Топ девушек',
+  'ranklist_title_member_boy' => 'Топ парней',
+  'ranklist_title_member_friend' => 'Топ друзей',
+  'ranklist_title_member_post' => 'Топ сообщений',
+  'ranklist_title_member_blog' => 'Топ блогов',
 
-  'ranklist_title_thread_reply' => '帖子回复排行',
-  'ranklist_title_thread_view' => '帖子查看排行',
-  'ranklist_title_thread_share' => '帖子分享排行',
-  'ranklist_title_thread_favorite' => '帖子收藏排行',
-  'ranklist_title_thread_heat' => '帖子热度排行',
+  'ranklist_title_thread_reply' => 'Ответы',
+  'ranklist_title_thread_view' => 'Просмотры',
+  'ranklist_title_thread_share' => 'Закладки',
+  'ranklist_title_thread_favorite' => 'Избранное',
 
-  'ranklist_title_blog_heat' => '日志人气排行',
-  'ranklist_title_blog_reply' => '日志评论排行',
-  'ranklist_title_blog_view' => '日志查看排行',
-  'ranklist_title_blog_share' => '日志分享排行',
-  'ranklist_title_blog_favorite' => '日志收藏排行',
-  'ranklist_title_blog_1' => '日志路过排行',
-  'ranklist_title_blog_2' => '日志雷人排行',
-  'ranklist_title_blog_3' => '日志握手排行',
-  'ranklist_title_blog_4' => '日志鲜花排行',
-  'ranklist_title_blog_5' => '日志鸡蛋排行',
+  'ranklist_title_blog_heat' => 'Популярные блоги',
+  'ranklist_title_blog_reply' => 'Популярные ответы',
+  'ranklist_title_blog_view' => 'Рейтинг по просмотрам',
+  'ranklist_title_blog_share' => 'Популярные закладки',
+  'ranklist_title_blog_favorite' => 'Популярное избранное',
+  'ranklist_title_blog_1' => 'С довольными',
+  'ranklist_title_blog_2' => 'С прохладными',
+  'ranklist_title_blog_3' => 'С рукопожатием',
+  'ranklist_title_blog_4' => 'С цветами',
+  'ranklist_title_blog_5' => 'С яйцами',
 
-  'ranklist_title_poll_heat' => '投票热度排行',
-  'ranklist_title_poll_favorite' => '投票收藏排行',
-  'ranklist_title_poll_share' => '投票分享排行',
+  'ranklist_title_poll_heat' => 'Лучшие голосования',
+  'ranklist_title_poll_favorite' => 'Лучшее избранное',
+  'ranklist_title_poll_share' => 'Лучшие закладки',
 
-  'ranklist_title_activity_heat' => '活动热度排行',
-  'ranklist_title_activity_favorite' => '活动收藏排行',
-  'ranklist_title_activity_share' => '活动分享排行',
+  'ranklist_title_activity_heat' => 'Лучшие события',
+  'ranklist_title_activity_favorite' => 'Лучшее избранное',
+  'ranklist_title_activity_share' => 'Лучшие закладки',
 
-  'ranklist_title_picture_heat' => '图片热图排行',
-  'ranklist_title_picture_share' => '图片分享排行',
-  'ranklist_title_picture_1' => '图片漂亮排行',
-  'ranklist_title_picture_2' => '图片酷毙排行',
-  'ranklist_title_picture_3' => '图片雷人排行',
-  'ranklist_title_picture_4' => '图片鲜花排行',
-  'ranklist_title_picture_5' => '图片鸡蛋排行',
+  'ranklist_title_picture_heat' => 'Лучшие фото',
+  'ranklist_title_picture_share' => 'Лучшие фото в закладках',
+  'ranklist_title_picture_1' => 'С довольными',
+  'ranklist_title_picture_2' => 'С прохладными',
+  'ranklist_title_picture_3' => 'С рукопожатием',
+  'ranklist_title_picture_4' => 'С цветами',
+  'ranklist_title_picture_5' => 'С яйцами',
 
-  'ranklist_title_forum_thread' => '版块发帖排行',
-  'ranklist_title_forum_post' => '版块回复排行',
-  'ranklist_title_forum_post_30' => '版块 30 天发帖排行',
-  'ranklist_title_forum_post_24' => '版块最近 24 小时发帖排行',
+  'ranklist_title_forum_thread' => 'Рейтинг сообщений форума',
+  'ranklist_title_forum_post' => 'Рейтинг от ответов',
+  'ranklist_title_forum_post_30' => 'За месяц',
+  'ranklist_title_forum_post_24' => 'За сутки',
 
-  'ranklist_title_group_credit' => '群组积分排行',
-  'ranklist_title_group_member' => '群组成员数排行',
-  'ranklist_title_group_thread' => '群组发帖排行',
-  'ranklist_title_group_post' => '群组回复排行',
-  'ranklist_title_group_post_30' => '群组最近 30 天发帖排行',
-  'ranklist_title_group_post_24' => '群组最近 24 小时发帖排行',
-
-  'ranklist_title_app_today' => '今日应用活跃排行',
-  'ranklist_title_app_all' => '最流行应用',
+  'ranklist_title_group_credit' => 'Бонусный рейтинг группы',
+  'ranklist_title_group_member' => 'Рейтинг членов группы',
+  'ranklist_title_group_thread' => 'Рейтинг тем группы',
+  'ranklist_title_group_post' => 'Рейтинг сообщений группы',
+  'ranklist_title_group_post_30' => 'За месяц',
+  'ranklist_title_group_post_24' => 'За сутки',
+  
+'ranklist_title_app_all' => 'Топ приложений',
+'ranklist_title_app_today' => 'Топ приложения за сегодня',
+'ranklist_title_member_invite' => 'Топ приглашенных',
+'ranklist_title_member_onlinetime' => 'Время в сети',
+'ranklist_title_thread_heat' => 'Лучшие сообщения',
 );
 
 ?>

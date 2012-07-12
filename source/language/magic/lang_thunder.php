@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_thunder.php 7828 2010-04-14 02:11:48Z monkey $
@@ -9,9 +9,9 @@
 
 $lang = array
 (
-	'thunder_name' => '雷鸣之声',
-	'thunder_desc' => '发布一条全站动态，通知大家自己上线了',
-	'thunder_info' => '发布一条全站动态，通知大家自己上线了',
+	'thunder_name' => 'Молния',
+	'thunder_desc' => 'Срочное объявление для всех пользователей',
+	'thunder_info' => 'Срочное объявление для всех пользователей',
 );
 
 ?>

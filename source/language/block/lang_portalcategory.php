@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_portalcategory.php 15183 2010-08-19 11:30:18Z xupeng $
@@ -9,14 +9,14 @@
 
 $lang = array
 (
-	'portalcategory_thecatid' => '指定栏目',
-	'portalcategory_thecatid_comment' => '指定栏目的ID，多个ID之间用半角逗号（,）分割',
-	'portalcategory_catid' => '指定父级栏目',
-	'portalcategory_catid_comment' => '选择父级栏目',
-	'portalcategory_orderby' => '排序方式',
-	'portalcategory_orderby_comment' => '设置以哪一字段或方式对分类进行排序',
-	'portalcategory_orderby_displayorder' => '按默认顺序排序',
-	'portalcategory_orderby_articles' => '按文章数倒序',
+	'portalcategory_thecatid' => 'Категории портала',
+	'portalcategory_thecatid_comment' => 'Если у вас несколько значений, укажите ID категории через запятую',
+	'portalcategory_catid' => 'Родительская категория',
+	'portalcategory_catid_comment' => 'Укажите родительскую категорию',
+	'portalcategory_orderby' => 'Сортировка',
+	'portalcategory_orderby_comment' => 'Настройка фильтра сортировки',
+	'portalcategory_orderby_displayorder' => 'По умолчанию',
+	'portalcategory_orderby_articles' => 'По статьям',
 );
 
 ?>

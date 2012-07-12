@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_forumstat.php 6752 2010-03-25 08:47:54Z cnteacher $
@@ -9,37 +9,38 @@
 
 $lang = array
 (
-	'forumstat_name' => '论坛统计',
-	'forumstat_desc' => '论坛统计数据调用',
-	'forumstat_forums_allow' => '显示版块数统计',
-	'forumstat_forums_order' => '版块数统计显示顺序',
-	'forumstat_forums_text' => '版块数统计提示文字',
-	'forumstat_forums_default' => '版块数:',
+	'forumstat_name' => 'Статистика форума (заказы)',
+	'forumstat_desc' => 'Отображение статистики форума',
 
-	'forumstat_threads_allow' => '显示主题数统计',
-	'forumstat_threads_order' => '主题数统计显示顺序',
-	'forumstat_threads_text' => '主题数统计提示文字',
-	'forumstat_threads_default' => '主题数:',
+	'forumstat_forums_allow' => 'Форум',
+	'forumstat_forums_order' => 'По названию',
+	'forumstat_forums_text' => 'По количеству слов',
+	'forumstat_forums_default' => 'Форумов: ',
 
-	'forumstat_posts_allow' => '显示帖子数统计',
-	'forumstat_posts_order' => '帖子数统计显示顺序',
-	'forumstat_posts_text' => '帖子数统计提示文字',
-	'forumstat_posts_default' => '帖子数:',
+	'forumstat_threads_allow' => 'Темы',
+	'forumstat_threads_order' => 'По названию',
+	'forumstat_threads_text' => 'По количеству слов',
+	'forumstat_threads_default' => 'Тем: ',
 
-	'forumstat_members_allow' => '显示用户数统计',
-	'forumstat_members_order' => '用户数统计显示顺序',
-	'forumstat_members_text' => '用户数统计提示文字',
-	'forumstat_members_default' => '用户数:',
+	'forumstat_posts_allow' => 'Сообщения',
+	'forumstat_posts_order' => 'По названию',
+	'forumstat_posts_text' => 'По количеству слов',
+	'forumstat_posts_default' => 'Сообщений: ',
 
-	'forumstat_online_allow' => '显示在线人数统计',
-	'forumstat_online_order' => '在线人数统计显示顺序',
-	'forumstat_online_text' => '在线人数统计提示文字',
-	'forumstat_online_default' => '在线人数:',
+	'forumstat_members_allow' => 'Пользователи',
+	'forumstat_members_order' => 'По названию',
+	'forumstat_members_text' => 'По количеству слов',
+	'forumstat_members_default' => 'Пользователей: ',
 
-	'forumstat_onlinemember_allow' => '显示在线会员统计',
-	'forumstat_onlinemember_order' => '在线会员统计显示顺序',
-	'forumstat_onlinemember_text' => '在线会员统计提示文字',
-	'forumstat_onlinemember_default' => '在线会员:',
+	'forumstat_online_allow' => 'Онлайн',
+	'forumstat_online_order' => 'По названию',
+	'forumstat_online_text' => 'По количеству слов',
+	'forumstat_online_default' => 'Онлайн: ',
+
+	'forumstat_onlinemember_allow' => 'Онлайн пользователи',
+	'forumstat_onlinemember_order' => 'По названию',
+	'forumstat_onlinemember_text' => 'По количеству слов',
+	'forumstat_onlinemember_default' => 'Онлайн пользователей: ',
 );
 
 ?>

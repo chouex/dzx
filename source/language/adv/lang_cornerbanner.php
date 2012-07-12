@@ -9,17 +9,17 @@
 
 $lang = array
 (
-	'cornerbanner_name' => '全局 右下角广告',
-	'cornerbanner_desc' => '展现方式: 显示于页面右下角。当前页面有多个页头通栏广告时，系统会随机选取其中之一显示。<br />价值分析: 由于能够在页面的明显位置展现，因此成为了网页中价位最高、最适合进行商业宣传或品牌推广的广告类型之一。',
-	'cornerbanner_index' => '首页',
-	'cornerbanner_fids' => '投放版块',
-	'cornerbanner_fids_comment' => '设置广告投放的论坛版块，当广告投放范围中包含“论坛”时有效',
-	'cornerbanner_groups' => '投放群组分类',
-	'cornerbanner_groups_comment' => '设置广告投放的群组分类，当广告投放范围中包含“群组”时有效',
-	'cornerbanner_animator' => '动画效果',
-	'cornerbanner_animator_comment' => '设置展现时是否显示动画效果',
-	'cornerbanner_category' => '投放门户频道',
-	'cornerbanner_category_comment' => '设置广告投放的频道分类，当广告投放范围中包含“门户”时有效',
+	'cornerbanner_name' => 'Окно (справа снизу) ',
+	'cornerbanner_desc' => 'Блок рекламы будет отображаться в маленьком окне, в правом нижнем углу на всех страницах (сквозная реклама). Если Вы разместите более одного рекламного блока, они будут выводиться  случайным образом.',
+	'cornerbanner_index' => 'Главная',
+	'cornerbanner_fids' => 'Разделы форума',
+	'cornerbanner_fids_comment' => 'Выберите разделы форума для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
+	'cornerbanner_groups' => 'Категории сообществ',
+	'cornerbanner_groups_comment' => 'Выберите категории сообществ для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
+	'cornerbanner_animator' => 'Анимация',
+	'cornerbanner_animator_comment' => 'Установка анимации в рекламе',
+	'cornerbanner_category' => 'Категории портала',
+	'cornerbanner_category_comment' => 'Выберите категории портала для показа объявлений, для множественного выбора, удеживайте CTRL или SHIFT.',
 );
 
 ?>

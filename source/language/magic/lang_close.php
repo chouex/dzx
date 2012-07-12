@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_close.php 7980 2010-04-15 07:04:00Z monkey $
@@ -9,18 +9,18 @@
 
 $lang = array
 (
-	'close_name' => '沉默卡',
-	'close_desc' => '可以将主题关闭，禁止回复',
-	'close_expiration' => '关闭有效期',
-	'close_expiration_comment' => '设置主题可以被关闭多长时间，默认 24 小时',
-	'close_forum' => '允许使用本道具的版块',
-	'close_info' => '关闭指定的主题 {expiration} 小时，请输入主题的 ID',
-	'close_info_nonexistence' => '请指定要关闭的主题',
-	'close_succeed' => '你操作的主题已关闭',
-	'close_info_noperm' => '对不起，主题所在版块不允许使用本道具',
-	'close_info_user_noperm' => '对不起，你不能对此人使用本道具',
+	'close_name' => 'Закрыть тему',
+	'close_desc' => 'Закрытие темы',
+	'close_expiration' => 'Период для закрытия',
+	'close_expiration_comment' => 'Установка периода действия, по умолчанию 24 часа',
+	'close_forum' => 'Разрешить использовать реквизит',
+	'close_info' => 'Срок действия:  {expiration}, укажите ID',
+	'close_info_nonexistence' => 'Укажите тему',
+	'close_succeed' => 'Тема закрыта',
+	'close_info_noperm' => 'Извините, не разрешается использовать форум где уже используется реквизит',
+	'close_info_user_noperm' => 'Извините, вы не можете использовать реквизит для этого человека',
 
-	'close_notification' => '你的主题 {subject} 被 {actor} 使用了{magicname}，<a href="forum.php?mod=viewthread&tid={tid}">快去看看吧！</a>',
+	'close_notification' => 'В вашей теме {subject} {actor} использовал {magicname}, <a href="forum.php?mod=viewthread&tid={tid}">Посмотреть!</a>',
 );
 
 ?>

@@ -10,19 +10,19 @@
  */
 
 $lang = array (
-  'no_tag' => '还没有任何标签',
-  'tag' => '标签',
-  'blog_read' => '次阅读',
-  'blog_replay' => '个评论',
-  'empty_tags' => '没有此标签，您可以继续搜索或者<a href="misc.php?mod=tag" title="返回标签首页">返回标签首页</a>',
-  'forum' => '版块',
-  'hot' => '热度',
-  'lastpost' => '最后发表',
-  'no_content' => '没有相关内容',
-  'personal_category' => '个人分类',
-  'related_blog' => '相关日志',
-  'related_thread' => '相关帖子',
-  'replies' => '回复/查看',
+  'no_tag' => 'Не имеет тегов',
+  'tag' => 'Теги',
+  'blog_read' => 'Повторно прочитать',
+  'blog_replay' => 'Отзывы',
+  'empty_tags' => 'Вы можете продолжить поиск или <a href="misc.php?mod=tag" title="Вернуться на страницу тегов">Вернуться на страницу тегов</a>',
+  'forum' => 'Форум',
+  'hot' => 'Лучшие',
+  'lastpost' => 'Последние сообщения',
+  'no_content' => 'Нет содержания',
+  'personal_category' => 'Персональная категория',
+  'related_blog' => 'Похожие блоги',
+  'related_thread' => 'Похожие темы',
+  'replies' => 'Ответов / просмотров',
 );
 
 ?>

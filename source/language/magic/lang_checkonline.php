@@ -1,7 +1,7 @@
 <?php
 
 /**
- *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      [Discuz!] (C)2001-2011 Comsenz Inc. & Russian TEAM Chinascript.ru
  *      This is NOT a freeware, use is subject to license terms
  *
  *      $Id: lang_checkonline.php 14918 2010-08-17 05:35:02Z chenchunshao $
@@ -9,16 +9,16 @@
 
 $lang = array
 (
-	'checkonline_name' => '雷达卡',
-	'checkonline_desc' => '查看某个用户是否在线',
-	'checkonline_targetuser' => '你要查看谁是否在线',
-	'checkonline_info_nonexistence' => '请输入用户名',
-	'checkonline_hidden_message' => '{username} 当前隐身，最后活动时间是 {time}',
-	'checkonline_online_message' => '{username} 当前在线，最后活动时间是 {time}',
-	'checkonline_offline_message' => '{username} 当前离线',
-	'checkonline_info_noperm' => '对不起，你无权查看此人的 IP',
+	'checkonline_name' => 'Шпионаж',
+	'checkonline_desc' => 'Просмотр онлайн статуса пользователя',
+	'checkonline_targetuser' => 'Укажите пользователя',
+	'checkonline_info_nonexistence' => 'Введите пользователя',
+	'checkonline_hidden_message' => '{username} сейчас на сайте (невидимка). Вошел: {time}',
+	'checkonline_online_message' => '{username} сейчас на сайте. Вошел: {time}',
+	'checkonline_offline_message' => '{username} сейчас нет на сайте',
+	'checkonline_info_noperm' => 'Извините, вы не имеете права для просмотра IP этого человека',
 
-	'checkonline_notification' => '有人使用了{magicname}检查你是否在线',
+	'checkonline_notification' => 'Продвинутые люди всегда используют {magicname} для получения информации, кто есть онлайн',
 );
 
 ?>
